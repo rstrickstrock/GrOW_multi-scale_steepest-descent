@@ -33,3 +33,15 @@ Furthermore, adaptions to the program files may be necessary depending on the us
     e.g.
     
     $ python main.py ../opt_1/octane_hybrid.cfg
+    
+    
+# Adapting the file to fit the IT infrastructure
+    
+- make sure all the relative filepaths in the <config>-file are correct
+- adapt files in 
+ 
+        - Code/GrOW/parallel_jobs/*
+		
+        - Code/GrOW/simulation/*
+    
+  	    to fit to your simulation tools and environments used (e.g. cluster queueuing software)
