@@ -27,6 +27,7 @@ Furthermore, adaptions to the program files may be necessary depending on the us
 - copy the "Code" directory to the desired location
 - navigate to Code/GrOW/
 - exectute the main script the following way:
-    python main.py <config>
-	e.g.
-	$ python main.py ../opt_1/octane_hybrid.cfg
+
+python main.py <config>
+e.g.
+$ python main.py ../opt_1/octane_hybrid.cfg
