@@ -3,7 +3,7 @@ Python and input files for reproduction of the results of COMPHY-D-21-00093R2
 
 This repository contains program and input files for the reproduction of the results presented in COMPHY-D-21-00093R2.
 
-This program is free software: you can redistribute it and/or modify
+    This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
