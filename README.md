@@ -20,3 +20,13 @@ This repository contains program and input files for the reproduction of the res
 To reproduce the results and use the given input files installations of Gromacs <https://www.gromacs.org/Gromacs_papers> and Amber <https://ambermd.org/> are necessary.
 
 Furthermore, adaptions to the program files may be necessary depending on the used IT infrastructure. 
+
+
+# Installation and execution guide
+
+- copy the "Code" directory to the desired location
+- navigate to Code/GrOW/
+- exectute the main script the following way:
+    python main.py <config>
+	e.g.
+	$ python main.py ../opt_1/octane_hybrid.cfg
