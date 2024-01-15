@@ -42,10 +42,4 @@ Furthermore, adaptions to the program files may be necessary depending on the us
 - adapt the paths for 'cwd' in all PP-*/octane_hybrid_new.cfg files
 - adapt the paths for 'cwd' in all run_PP*.sh files
 - adapt the configurations in all PP-*/batch_run_PP*.sh files to match your IT infrastructure
-- maybe adapt files in 
- 
-        - Code/GrOW/parallel_jobs/*
-		
-        - Code/GrOW/simulation/*
-    
-  	    to fit to your simulation tools and environments used (e.g. cluster queueuing software)
+- adaptions in programfiles in "FFLOW/" might be necessary to adjust to the used simulation tool versions and environments (e.g. cluster queueuing software)
