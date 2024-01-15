@@ -24,8 +24,8 @@ Furthermore, adaptions to the program files may be necessary depending on the us
 
 # Installation and execution guide
 
-- copy the "Code" directory to the desired location
-- navigate to Code/GrOW/
+- copy the code directory ("FFLOW/") to the desired location
+- navigate to FFLOW/
 - exectute the main script the following way:
 
     python main.py <config>
@@ -33,12 +33,16 @@ Furthermore, adaptions to the program files may be necessary depending on the us
     e.g.
     
     $ python main.py ../opt_1/octane_hybrid.cfg
+  
+- The optimization in "input_data/" are started via scripts (e.g. "input_data/wf_exp_init/batch_run_PP-15_MM-85.sh") that also utlize the provided IT structure at the time the optimizations were performed. 
     
     
 # Adapting the file to fit the IT infrastructure
     
-- make sure all the relative filepaths in the <config>-file are correct
-- adapt files in 
+- adapt the paths for 'cwd' in all PP-*/octane_hybrid_new.cfg files
+- adapt the paths for 'cwd' in all run_PP*.sh files
+- adapt the configurations in all PP-*/batch_run_PP*.sh files to match your IT infrastructure
+- maybe adapt files in 
  
         - Code/GrOW/parallel_jobs/*
 		
